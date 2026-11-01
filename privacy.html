@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Resell Radar PRO: independent development and eBay Sandbox testing.">
+  <meta name="color-scheme" content="dark">
+  <title>Privacy Policy | Resell Radar PRO</title>
+  <style>
+    :root {--bg:#091321;--panel:#132235;--line:#304359;--text:#edf5ff;--muted:#c6d3e4;--accent:#b7fb79;--link:#9fd7ff}
+    * {box-sizing:border-box}
+    html {scroll-behavior:smooth}
+    body {margin:0;background:var(--bg);color:var(--text);font:16px/1.72 system-ui,-apple-system,"Segoe UI",sans-serif}
+    .page {max-width:890px;margin:auto;padding:50px 24px 76px}
+    .brand {color:var(--accent);text-transform:uppercase;letter-spacing:.17em;font-size:13px;font-weight:800}
+    .eyebrow {color:var(--muted);font-size:14px;margin:8px 0 0}
+    h1 {font-size:clamp(35px,6vw,55px);letter-spacing:-.045em;line-height:1.12;margin:11px 0 17px}
+    h2 {font-size:22px;line-height:1.3;color:var(--accent);margin:38px 0 13px;scroll-margin-top:22px}
+    h3 {font-size:17px;margin:23px 0 7px}
+    p,li,dd,td {color:var(--muted)}
+    a {color:var(--link);overflow-wrap:anywhere}
+    a:hover {color:#e2f2ff}
+    strong,th {color:var(--text)}
+    header {padding-bottom:24px;border-bottom:1px solid var(--line)}
+    .scope {margin:25px 0 28px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 22px}
+    .scope p {margin:5px 0 0}
+    .identity {background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 24px}
+    .identity dl {display:grid;grid-template-columns:160px 1fr;gap:9px 20px;margin:0}
+    dt {font-weight:700}
+    dd {margin:0}
+    ul {padding-left:23px}
+    li {margin:8px 0}
+    .table-wrap {overflow-x:auto;border:1px solid var(--line);border-radius:14px;margin:17px 0}
+    table {border-collapse:collapse;width:100%;font-size:14px;min-width:550px}
+    th,td {text-align:left;vertical-align:top;padding:12px 15px;border-bottom:1px solid var(--line)}
+    th {background:#1c3148;font-size:13px}
+    tr:last-child td {border-bottom:none}
+    .small {font-size:14px;color:var(--muted)}
+    footer {border-top:1px solid var(--line);margin-top:48px;padding-top:19px;font-size:13px;color:var(--muted)}
+    @media(max-width:580px) {.page {padding:29px 18px 53px}.identity dl {display:block}.identity dt {margin-top:10px}.identity dd {margin-bottom:9px}h2 {margin-top:32px}}
+  </style>
+</head>
+<body>
+<main class="page">
+<header>
+  <div class="brand">Resell Radar PRO</div>
+  <h1>Privacy Policy</h1>
+  <p class="eyebrow">Effective date: 1 November 2026 · Applies to the development and Sandbox testing version</p>
+</header>
+<div class="scope">
+  <strong>Current scope of this notice</strong>
+  <p>Resell Radar PRO is an independent software project in development. Its eBay connection is currently limited to the eBay Sandbox test environment. The application is being developed and tested locally; a publicly launched, production SaaS service is not covered by this notice. Subscription payments and transactional email features may be tested using test or sandbox configurations. Before any public production launch or material feature change, this notice and the relevant technical controls must be reviewed and updated.</p>
+</div>
+
+<section aria-labelledby="controller"><h2 id="controller">1. Who is responsible for your information?</h2>
+<p>For the development and testing activities described below, the data controller is the individual developer operating the project:</p>
+<div class="identity"><dl>
+<dt>Project</dt><dd>Resell Radar PRO</dd>
+<dt>Operator</dt><dd>Pásztor Botond</dd>
+<dt>Legal status</dt><dd>Individual developer, not currently a registered company or sole-proprietor business</dd>
+<dt>Country</dt><dd>Hungary</dd>
+<dt>Privacy contact</dt><dd><a href="mailto:botondpasztor04@gmail.com">botondpasztor04@gmail.com</a></dd>
+</dl></div>
+<p>For privacy inquiries, requests for access or deletion, and questions about the information in this notice, use the contact email above. Please do not send passwords, card details, access tokens or secret keys by email.</p>
+</section>
+
+<section aria-labelledby="information"><h2 id="information">2. What information may be processed?</h2>
+<ul>
+<li><strong>Account information:</strong> name, email address, a salted password hash, account and workspace identifiers, account creation date and login/session records where test accounts are created.</li>
+<li><strong>Workspace data:</strong> product details, inventory records, costs, sales entries, alert preferences and other information entered or imported by the tester.</li>
+<li><strong>eBay Sandbox connection:</strong> authorization data, granted scopes, encrypted access and refresh tokens, connection status, and the limited inventory information requested for display, including SKUs, identifiers and listing titles. These are Sandbox test data, not live eBay seller records.</li>
+<li><strong>eBay permissions:</strong> the integration requests <em>sell.inventory.readonly</em> and <em>sell.fulfillment.readonly</em> permissions. Although the current preview feature only reads a limited set of inventory items, the fulfillment permission could allow access to order-related information. The current preview does not retrieve or synchronize buyer/order details; any future use of that capability requires an updated privacy notice and technical review.</li>
+<li><strong>Billing test data, when enabled:</strong> plan and subscription status, customer/subscription identifiers and relevant signed payment-event references. Card data entered in Stripe's hosted payment flow is handled by Stripe, not stored by Resell Radar PRO.</li>
+<li><strong>Service emails, when enabled:</strong> account email addresses used to send essential subscription or service messages, plus delivery job status and limited diagnostic records. Marketing emails are not part of the current service-email feature.</li>
+<li><strong>Technical data:</strong> necessary browser/session information, request and error metadata, and security logs produced by the actual testing environment.</li>
+</ul>
+<p>Do not enter real buyer personal information or other sensitive third-party data in Sandbox or development workspaces. Some test records may nevertheless be personal data if they relate to an identifiable tester.</p>
+</section>
+
+<section aria-labelledby="purposes"><h2 id="purposes">3. Purposes and legal bases</h2>
+<p>Where the EU General Data Protection Regulation (GDPR) applies, processing is limited to the purposes described here. The applicable basis depends on the circumstances of the test and the relationship with the tester.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Purpose</th><th>Typical information</th><th>GDPR legal basis</th></tr></thead>
+<tbody>
+<tr><td>Provide a requested test account, workspace and optional marketplace connection</td><td>Account, workspace and authorization records</td><td>Article 6(1)(b), where processing is necessary to provide a service requested by a tester; otherwise Article 6(1)(f), legitimate interest in testing and improving the project</td></tr>
+<tr><td>Maintain account, service and OAuth security</td><td>Sessions, access controls, limited diagnostic records</td><td>Article 6(1)(f), legitimate interest in preventing unauthorized access, fraud and misuse</td></tr>
+<tr><td>Process optional test billing and send essential related service notices</td><td>Subscription identifiers, billing-event references and email address</td><td>Article 6(1)(b) where necessary for a requested subscription/test service; Article 6(1)(f) for delivery and operational integrity; Article 6(1)(c) only where a specific record-keeping obligation applies</td></tr>
+<tr><td>Respond to privacy requests and comply with applicable law</td><td>Contact and request records</td><td>Article 6(1)(c) where legally required, or Article 6(1)(f) for managing requests and demonstrating accountability</td></tr>
+</tbody></table></div>
+<p>The legitimate interests above are limited to operating and securing a small development project and assisting testers. Testers may object to processing based on legitimate interests, subject to applicable legal conditions. Connecting eBay is optional and is initiated through eBay's own authorization screen; giving eBay OAuth authorization is not consent to marketing.</p>
+</section>
+
+<section aria-labelledby="ebay"><h2 id="ebay">4. How the eBay Sandbox connection works</h2>
+<p>If a tester selects <strong>Connect eBay</strong>, the application redirects the tester to eBay's Sandbox authorization page. eBay handles sign-in and permission approval; the application does not request the tester's eBay password.</p>
+<p>On successful authorization, the application exchanges the authorization code for access and refresh tokens, encrypts those tokens before storing them with the test workspace, and uses the access token to request a limited inventory preview (up to ten items). The feature is read-only and does not create purchases or modify listings. A temporary HTTPS callback tunnel may be used for local Sandbox tests.</p>
+<p>The tester can choose <strong>Disconnect</strong> in the application to remove the locally stored eBay connection tokens. Tester authorization may also be revoked separately through eBay account permissions. OAuth attempts use short-lived security state; the application should be reviewed before allowing external test participants or production accounts.</p>
+<p>This version does <strong>not</strong> enable eBay Production. Before enabling production access, the operator must meet eBay's applicable marketplace-account deletion/closure notification requirements and review any buyer/order-data processing. eBay processes its own account and authorization data under its own privacy terms.</p>
+</section>
+
+<section aria-labelledby="sharing"><h2 id="sharing">5. Who may receive information?</h2>
+<ul>
+<li><strong>eBay:</strong> handles Sandbox account login, consent and API responses for the user-authorized connection. See <a href="https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260">eBay's privacy notice</a>.</li>
+<li><strong>Stripe:</strong> may process information provided in a hosted test checkout, and sends signed billing events to the app when test billing is enabled. See <a href="https://stripe.com/privacy">Stripe's privacy information</a>.</li>
+<li><strong>Brevo / SMTP service:</strong> may process message content and recipient addresses only if transactional email delivery is configured and enabled. See <a href="https://www.brevo.com/legal/privacypolicy/">Brevo's privacy information</a>.</li>
+<li><strong>GitHub Pages:</strong> hosts this public privacy page and related project information; access to those pages may involve processing of visitor technical data by GitHub. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</li>
+<li><strong>Cloudflare:</strong> may carry HTTPS callback traffic while a temporary development tunnel is active for Sandbox OAuth tests. This callback is not a public deployment of the complete SaaS application. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's privacy information</a>.</li>
+</ul>
+<p>At the effective date, the application is run in a local development environment rather than on an identified production app-hosting provider. No production database host is represented here. If the service is deployed to a third-party host or additional processors are introduced, this notice will be updated before that use.</p>
+<p>Some providers may operate outside Hungary or the European Economic Area. The applicable provider terms and transfer mechanisms depend on the actual service configuration; this notice does not assert an unverified transfer adequacy decision or specific contractual safeguard. A production launch requires verification and disclosure of relevant transfer safeguards.</p>
+</section>
+
+<section aria-labelledby="retention"><h2 id="retention">6. How long is information retained?</h2>
+<p>Information is kept only while needed for a specific development/testing purpose or an applicable legal requirement. The following describes the implemented technical behavior or retention criteria rather than promising deletion functions that have not been implemented:</p>
+<ul>
+<li><strong>Authentication sessions:</strong> sessions expire after seven days; logout revokes the active session. Expired session records may remain in the development database until maintenance or deletion.</li>
+<li><strong>Account and workspace data:</strong> retained while the related test account and development database are in use; deletion is handled by the operator upon a verified request where applicable. The current prototype does not advertise a self-service account-deletion feature or a fixed automatic deletion schedule.</li>
+<li><strong>eBay connection tokens:</strong> deleted from the application's active connection record when the tester disconnects. Short-lived OAuth state is valid for ten minutes, though related technical records may remain until database cleanup.</li>
+<li><strong>Inventory preview:</strong> requested for display; the current preview feature is not designed to persist the returned inventory item list as synchronized listings. Standard operational logs or local browser state may still retain limited technical information.</li>
+<li><strong>Transactional email delivery history:</strong> the configured cleanup period in the existing development application is 90 days for completed delivery records, provided the cleanup worker runs. Pending and other operational records may remain until handled.</li>
+<li><strong>Stripe test billing data:</strong> identifiers and event references may remain in the local development database until test data is cleared, subject to any applicable legal obligation.</li>
+<li><strong>Logs and backups:</strong> retention depends on the actual local runtime and any backups created by the operator; no universal automatic log or backup deletion period is asserted for the prototype.</li>
+</ul>
+<p>To ask what data about you is held or to request erasure, contact <a href="mailto:botondpasztor04@gmail.com">botondpasztor04@gmail.com</a>. A request will be considered under the applicable data protection rules, including any exceptions that require certain records to be retained.</p>
+</section>
+
+<section aria-labelledby="security"><h2 id="security">7. Security measures</h2>
+<p>The development application uses hashed passwords, session-based authentication, access controls for workspaces, anti-forgery checks for protected actions, and encryption for eBay OAuth tokens at rest. The eBay Sandbox callback uses HTTPS through a controlled development tunnel. Access to local development files and any backups is the operator's responsibility. No service can promise absolute security, and these measures do not replace a full security review before production deployment.</p>
+</section>
+
+<section aria-labelledby="cookies"><h2 id="cookies">8. Cookies and similar technologies</h2>
+<p>The local application uses an essential login session cookie named <code>rr_session</code>, configured with a maximum age of seven days, to keep a tester signed in. It is intended for authentication and security rather than behavioral advertising. The privacy page itself contains no custom analytics scripts, tracking pixels or advertising cookies. GitHub Pages and other external services may process technical data or use their own technologies under their privacy notices.</p>
+<p>The operator does not currently use the project to send marketing emails or to build advertising profiles of testers. If non-essential analytics or marketing trackers are introduced, additional disclosures and, where legally necessary, a prior consent mechanism will be added.</p>
+</section>
+
+<section aria-labelledby="rights"><h2 id="rights">9. Your data protection rights</h2>
+<p>Depending on applicable law and the facts of the request, you may have rights to information, access, rectification, erasure, restriction of processing, data portability, and to object to processing based on legitimate interests. If any processing later relies on consent, you may withdraw that consent without affecting prior lawful processing.</p>
+<p>To make a request, email <a href="mailto:botondpasztor04@gmail.com">botondpasztor04@gmail.com</a>. The operator may ask for proportionate information to verify the requester's identity. You may also complain to a competent supervisory authority; in Hungary, this is the <a href="https://www.naih.hu/">National Authority for Data Protection and Freedom of Information (NAIH)</a>.</p>
+<p>Providing an email address and account credentials is necessary to create a test account; declining to provide them means those account features cannot be used. Connecting an eBay Sandbox account and providing optional workspace fields are voluntary, but related features will not function without the required information. There is no solely automated decision-making intended to produce legal or similarly significant effects on users in this development version.</p>
+</section>
+
+<section aria-labelledby="changes"><h2 id="changes">10. Changes and future launch</h2>
+<p>This notice reflects the project as described on 1 November 2026. It will be updated if the application moves from local testing to a public production service, if new processors or international transfers are introduced, or if the service starts handling live eBay orders, buyer information or real payments. Important changes will be communicated when required by applicable law. Contact the operator before joining any wider test if you need the latest details of where the application is hosted or how test data is deleted.</p>
+</section>
+<footer>© 2026 Resell Radar PRO · Operated for development and testing by Pásztor Botond · Not affiliated with or endorsed by eBay, Stripe or Brevo.</footer>
+</main>
+</body>
+</html>
